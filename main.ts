@@ -1,6 +1,6 @@
-let distanceBuf = 0
-
 namespace nekomimi {
+
+    let distanceBuf = 0
 
     //% blockId=nekomimi_ultrasonic block="Ultrasonic|pin %pin"
     //% group="Ultrasonic" weight=40
