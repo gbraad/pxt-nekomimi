@@ -2,9 +2,9 @@ namespace nekomimi {
 
     let distanceBuf = 0
 
-    //% blockId=nekomimi_ultrasonic block="Ultrasonic|pin %pin"
+    //% blockId=nekomimi_ultrasonic block="Distance in cm|pin %pin"
     //% group="Ultrasonic" weight=40
-    export function Ultrasonic(pin: DigitalPin): number {
+    export function Distance(pin: DigitalPin): number {
         // send trigger pulse
         pins.setPull(pin, PinPullMode.PullNone);
         pins.digitalWritePin(pin, 0);
